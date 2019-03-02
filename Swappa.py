@@ -6,8 +6,8 @@ import sendgrid
 from sendgrid.helpers.mail import *
 
 
-sg = sendgrid.SendGridAPIClient(apikey='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')
-from_email = Email("saiftheboss7@gmail.com")
+sg = sendgrid.SendGridAPIClient(apikey='')
+from_email = Email("test@example.com")
 to_email = Email("saiftheboss7@gmail.com")
 subject = "Swappa Found"
 content = Content("text/plain", "New Product Found at Swappa")
